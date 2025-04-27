@@ -1,0 +1,25 @@
+/* Button style */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Animation on hover */
+button:hover {
+  animation: scaleUp 0.3s ease-in-out;
+  background-color: #4caf50; /* Change color when hovered */
+}
+
+/* Define the scaleUp animation */
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
